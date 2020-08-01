@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import FormField from '../../../components/FormField';
 import PageDefault from '../../../components/PageDefault';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
@@ -14,19 +15,8 @@ function CadastroCategoria() {
     descricao: '',
     cor: '',
   };
-  const [values, setValues] = useState([valoresIniciais]);
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor, // nome: 'valor'
-    });
-  }
-  function handleChange(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value,
-    );
-  }
+
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
 
   useEffect(() => {
     if (window.location.href.includes('localhost')) {
@@ -55,12 +45,13 @@ function CadastroCategoria() {
           ...categorias,
           values,
         ]);
-        setValues(valoresIniciais);
+
+        clearForm();
       }}
       >
 
         <FormField
-          label="Nome da Categoria:"
+          label="Nome da Categoria"
           type="text"
           name="nome"
           value={values.nome}
@@ -68,14 +59,14 @@ function CadastroCategoria() {
         />
 
         <FormField
-          label="Descrição:"
+          label="Descrição"
           type="textarea"
           name="descricao"
           value={values.descricao}
           onChange={handleChange}
         />
         <FormField
-          label="Cor:"
+          label="Cor"
           type="color"
           name="cor"
           value={values.cor}
@@ -86,6 +77,7 @@ function CadastroCategoria() {
         </Button>
       </form>
       <ul>
+        {/* eslint-disable-next-line arrow-body-style */}
         {categorias.map((categoria, indice) => {
           return (
             <li key={`${categoria}${indice}`}>

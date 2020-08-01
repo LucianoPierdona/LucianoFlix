@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -16,8 +17,6 @@ ReactDOM.render(
       <Route component={Error} />
     </Switch>
   </BrowserRouter>,
-
-
 
   // <React.StrictMode>
   //   <App />
