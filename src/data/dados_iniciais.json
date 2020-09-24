@@ -1,111 +1,115 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "titulo": "Hardstyle",
+      "link": "https://youtu.be/BQrxV3ASVKI",
       "cor": "#FF9900",
       "videos": [
         {
-          "titulo": "What is a front-end developer?",
-          "url": "https://www.youtube.com/watch?v=Tl0x_zf8I78"
+          "titulo": "Rebelion - Lockdown (Riot Shift Remix)",
+          "url": "https://youtu.be/BQrxV3ASVKI"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Rebelion ft. Tha Watcher - Fake Shit",
+          "url": "https://youtu.be/i231Zm_wo0w"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Frequencerz - The Unknown",
+          "url": "https://youtu.be/vEXpoSJsulA"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "D-Block & S-te-Fan and Villain - We Don't Stop (Lights Out)",
+          "url": "https://youtu.be/77DVm0ssQ0I"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Sub Zero Project - Rave Into Space",
+          "url": "https://youtu.be/NaQc3jclGgc"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Sub Zero Project - PSYchopath",
+          "url": "https://youtu.be/Avbz-yykz2g"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Warface x Malice x Rooler - Watch Your Back",
+          "url": "https://youtu.be/BO0pnS-eDlU"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
+          "titulo": "Act of Rage & D-Sturb - Let The Games Begin",
+          "url": "https://youtu.be/4sVt1JQ20rc"
+        }
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Funk",
       "cor": "#00C86F",
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "MC Kapela - Senta e Chora",
+          "url": "https://youtu.be/Cb5PPCEBXjI"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "MC Kapela - Clube dos Canalhas",
+          "url": "https://youtu.be/Jw2JrHsTvko"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "OUTFIT VALIOSO - MC Cebezinho, PP DA VS, Magal, Ryan SP e Salvador",
+          "url": "https://youtu.be/kzAGS4K3-kU"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
+          "titulo": "MC PP da VS - Anonimato",
+          "url": "https://youtu.be/t4ArKo7YBpU"
+        },
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "MC PP da VS - Chuva de Prosperidade",
+          "url": "https://youtu.be/PDCm9tLbtzk"
+        },
+        {
+          "titulo": "MC Kapela - O Pai Tá Voando",
+          "url": "https://youtu.be/9WaYq6z2A2A"
         }
       ]
     },
     {
-      "titulo": "Data Science and AI",
+      "titulo": "Rap",
       "cor": "#9cd33b",
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "e-dubble - Two Tone Rebel",
+          "url": "https://youtu.be/HWiRYa_n-vQ"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "e-dubble - Let Me Oh",
+          "url": "https://youtu.be/taCRBFkUqdM"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Eminem - Till I Collapse",
+          "url": "https://youtu.be/ytQ5CYE1VZw"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Eminem - Lose Yourself",
+          "url": "https://youtu.be/_Yhyp-_hX2s"
         }
       ]
     },
     {
-      "titulo": "Movies",
+      "titulo": "Sertanejo",
       "cor": "orange",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Kleo Dibah, Rafael - Alô! Minas Gerais",
+          "url": "https://youtu.be/Et8yKKq1Oxo"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Antony e Gabriel - TCC - Truco, Cerveja e Churrasco",
+          "url": "https://youtu.be/dVtazjAbvys"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Bruno e Barretto - Farra, Pinga e Foguete",
+          "url": "https://youtu.be/X0QJW_rRXkY"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Bruno & Barretto - Pai Nosso",
+          "url": "https://youtu.be/z1joCPV7_IM"
         }
       ]
     },
